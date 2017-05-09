@@ -148,28 +148,66 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\angular-material\angular-material.css" />
+    <Content Include="Content\angular-material\angular-material.layout-attributes.css" />
+    <Content Include="Content\angular-material\angular-material.layout-attributes.min.css" />
+    <Content Include="Content\angular-material\angular-material.layouts.css" />
+    <Content Include="Content\angular-material\angular-material.layouts.ie_fixes.css" />
+    <Content Include="Content\angular-material\angular-material.layouts.min.css" />
+    <Content Include="Content\angular-material\angular-material.min.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\ie8.css" />
+    <Content Include="Content\css\ie9.css" />
+    <Content Include="Content\css\images\arrow.svg" />
+    <Content Include="Content\css\images\ie\banner-overlay.png" />
+    <Content Include="Content\css\images\overlay.png" />
+    <Content Include="Content\css\main.css" />
+    <Content Include="Content\Images\main\profile_banner.jpg" />
+    <Content Include="Content\Sections\About Me\AboutMe.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\main.css" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\angular-animate\angular-animate.js" />
+    <Content Include="Scripts\angular-animate\angular-animate.min.js" />
+    <Content Include="Scripts\angular-aria\angular-aria.js" />
+    <Content Include="Scripts\angular-aria\angular-aria.min.js" />
+    <Content Include="Scripts\angular-aria\angular-aria.min.js.map" />
+    <Content Include="Scripts\angular-animate\angular-animate.min.js.map" />
+    <Content Include="Scripts\angular-messages\angular-messages.min.js.map" />
+    <Content Include="Content\Sections\About Me\Text.docx" />
+    <Content Include="Content\Sections\Experience\Text.docx" />
+    <Content Include="Content\Sections\Goals\Text.docx" />
+    <Content Include="Content\Sections\Skills\Text.docx" />
+    <None Include="Scripts\jquery\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\angular-material\angular-material-mocks.js" />
+    <Content Include="Scripts\angular-material\angular-material.js" />
+    <Content Include="Scripts\angular-material\angular-material.min.js" />
+    <Content Include="Scripts\angular-messages\angular-messages.js" />
+    <Content Include="Scripts\angular-messages\angular-messages.min.js" />
+    <Content Include="Scripts\angular\angular.js" />
+    <Content Include="Scripts\angular\angular.min.js" />
+    <Content Include="Scripts\jquery\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery\jquery-1.10.2.min.js" />
+    <Content Include="Views\Home\images\banner.jpg" />
+    <Content Include="Views\Home\images\pic01.jpg" />
+    <Content Include="Views\Home\images\pic02.jpg" />
+    <Content Include="Views\Home\images\pic03.jpg" />
+    <Content Include="Views\Home\images\pic04.jpg" />
+    <Content Include="Views\Home\images\pic05.jpg" />
+    <Content Include="Views\Home\images\pic06.jpg" />
+    <Content Include="Views\Home\images\pic07.jpg" />
+    <Content Include="Views\Home\images\pic08.jpg" />
+    <None Include="Views\Home\index.cshtml" />
+    <Content Include="Views\Home\left-sidebar.html" />
+    <Content Include="Views\Home\LICENSE.txt" />
+    <Content Include="Views\Home\no-sidebar.html" />
+    <Content Include="Views\Home\README.txt" />
+    <Content Include="Views\Home\right-sidebar.html" />
+    <Content Include="Views\Home\_ResearchInterests.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -181,12 +219,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Sections\Contact\" />
+    <Folder Include="Content\Sections\Projects\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -202,7 +239,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Scripts\jquery\jquery-1.10.2.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,79 @@
+﻿
+#goals {
+	flex: 1500px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 736px) {
+	#goals {
+		flex: 1500px;
+	}
+}
+
+#goal1 {
+	background-image: url("/Content/Images/main/Profile.jpg");
+	background-size: cover;
+	flex: 50%;
+}
+
+#goal1-aside {
+	background-color: #98a450;
+}
+
+	#goal1-aside p {
+		margin: 1em;
+	}
+
+#goal2 {
+	background-image: url("/Content/Images/main/3.jpg");
+	flex: 50%;
+}
+
+#goal2-aside {
+	background-color: red;
+}
+
+#goal3 {
+	background-image: url("/Content/Images/main/4.jpg");
+	flex: 50%;
+}
+
+#goal3-aside {
+	background-color: red;
+}
+
+#goal4 {
+	background-image: url("/Content/Images/main/5.jpg");
+	flex: 50%;
+}
+
+#goal4-aside {
+	background-color: red;
+}
+
+.text-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	flex-direction: column;
+	color: white;
+}
+
+	.text-center h4 {
+		font-size: 28px;
+	}
+
+	.text-center span {
+		width: 30%;
+		height: 1px;
+		background: rgba(255, 255, 255, 0.29);
+		display: inline-block;
+		margin: 1.5em 0 0.5em;
+		transition: 0.5s all;
+		-webkit-transition: 0.5s all;
+		-moz-transition: 0.5s all;
+		-o-transition: 0.5s all;
+		-ms-transition: 0.5s all;
+	}

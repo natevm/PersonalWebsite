@@ -1,31 +1,248 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
+﻿<div id="page-wrapper">
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+	<!-- Header -->
+	@*<header id="header">
+		<h1 id="logo"><a href="index.html">Landed</a></h1>
+		<nav id="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li>
+					<a href="#">Layouts</a>
+					<ul>
+						<li><a href="left-sidebar.html">Left Sidebar</a></li>
+						<li><a href="right-sidebar.html">Right Sidebar</a></li>
+						<li><a href="no-sidebar.html">No Sidebar</a></li>
+						<li>
+							<a href="#">Submenu</a>
+							<ul>
+								<li><a href="#">Option 1</a></li>
+								<li><a href="#">Option 2</a></li>
+								<li><a href="#">Option 3</a></li>
+								<li><a href="#">Option 4</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="elements.html">Elements</a></li>
+				<li><a href="#" class="button special">Sign Up</a></li>
+			</ul>
+		</nav>
+	</header>*@
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
+	<!-- Banner -->
+	<section id="banner">
+		<div class="content">
+			<header>
+				<h2>Hi! I'm Nate Morrical</h2>
+				<p>
+					I’m a professional programmer, an Upward Bound alumnus, a Dell Scholar, <br />
+					and I'm passionate about computer visualization and human computer interaction.
+				</p>
+			</header>
+			<span class="image"><img src="Content/images/pic01.jpg" alt="" /></span>
+		</div>
+		<a href="#one" class="goto-next scrolly">Next</a>
+	</section>
+
+	<!-- One -->
+	<section id="one" class="spotlight style1 bottom">
+		<span class="image fit main"><img src="Content/images/campus.jpg" alt="" /></span>
+		<div class="content">
+			<div class="container">
+				<div class="row">
+					<div class="4u 12u$(medium)">
+						<header>
+							<h2>My Passion</h2>
+							<p>
+								Computer graphics holds a special place in my heart. It strikes
+								a balance between my creative roots, and my passion for math.
+							</p>
+						</header>
+					</div>
+					<div class="4u 12u$(medium)">
+						<p>
+							Graphics is what drove me to get my Honors BS in Computer Science at
+							Idaho State University, where I focused mostly on computer graphics,
+							parallel computing, and computational geometry through undergraduate research.
+						</p>
+					</div>
+					<div class="4u$ 12u$(medium)">
+						<p>
+							I'm incredibly humbled to be able to study computer graphics here at the U.
+							So many influential people in the computer graphics community passed through here,
+							and I'm thrilled to be able to follow in their footsteps.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="#two" class="goto-next scrolly">Next</a>
+	</section>
+
+	<!-- Two -->
+	<section id="two" class="spotlight style2 right">
+		<span class="image fit main"><img src="Content/images/INL.jpg" alt="" /></span>
+		<div class="content">
+			<header>
+				<h2>Applied Visualization Laboratory</h2>
+				<p>Summer 2017 – Present</p>
+			</header>
+			<p>
+				I'm currently working as an intern at the Idaho National Laboratory on enabling researchers to visualize complex data. 
+				Our main tools to accomplish this are CAVE systems, Stereo Walls, and virtual reality headsets. 
+			</p>
+			<ul class="actions">
+				<li><a href="https://caesenergy.org/research/laboratories/cave/" class="button">Learn More</a></li>
+			</ul>
+			<p>
+				CAVE systems combine high resolution stereoscopic projections and computer graphics to create a very immersive environment. 
+			</p>
+			<p>
+				Our VR headsets are also incredibly immersive. Unlike the CAVE, VR headsets are a little more portable. Multiple users can participate
+				at the same time through telecopresense.
+			</p>
+		</div>
+		<a href="#three" class="goto-next scrolly">Next</a>
+	</section>
+
+	<!-- Three -->
+	<section id="three" class="spotlight style3 left">
+		<span class="image fit main bottom"><img src="Content/images/quadtree.jpg" alt="" /></span>
+		<div class="content">
+			<header>
+				<h2>Computer Graphics Research</h2>
+				<p>2015 – 2017</p>
+			</header>
+			<p>
+				During my undergrad, I was a research assistant for John Edwards.
+				Together, we worked on an algorithm to construct something we call "object resolving quadtrees" 
+				by taking advantage of every day consumer graphics cards.
+			</p>
+			<ul class="actions">
+				<li><a href="https://github.com/edwardsjohnmartin/pgvd-paper/raw/master/paper.pdf" class="button">Link to Paper</a></li>
+			</ul>
+			<ul class="actions">
+				<li><a href="http://scholarworks.boisestate.edu/cgi/viewcontent.cgi?article=1172&context=icur" class="button">Link to Poster</a></li>
+			</ul>
+			<p>
+				Our work was mainly to improve generalized Voronoi Diagram and distance field construction, which in turn could improve 
+				robot traversal, physics simulations, data visualization, and many other things.
+			</p>
+		</div>
+		<a href="#four" class="goto-next scrolly">Next</a>
+	</section>
+
+	<!-- Four -->
+	<section id="four" class="spotlight style1 right">
+		<span class="image fit main bottom"><img src="Content/images/michael_prev.jpg" alt="" /></span>
+		<div class="content">
+			<header>
+				<h2>GSOC and the Blender Foundation</h2>
+				<p>Summer of 2016</p>
+			</header>
+			<p>
+				Google summer of Code allows students to work with a mentor to learn more about open source development. 
+			</p>
+			<ul class="actions">
+				<li><a href="https://developers.google.com/open-source/gsoc/" class="button">Learn More</a></li>
+			</ul>
+			<p>
+				In the program, I wrote a proposal to Blender on improving the performance of 
+				vertex painting.
+			</p>
+			<ul class="actions">
+				<li><a href="https://wiki.blender.org/index.php/User:Bitinat2/GSoC_2016/UserDocs" class="button">My projecct</a></li>
+			</ul>
+			<p>
+				My proposal was a success, and my vertex painting tools should be merged into the official Blender
+				program in 2.8. (Shout out to my mentor, Bastien Montagne, and Pachupp for the art!)
+			</p>
+			<ul class="actions">
+				<li><a href="https://www.blender.org/" class="button">Learn about Blender</a></li>
+			</ul>
+		</div>
+		<a href="#five" class="goto-next scrolly">Next</a>
+	</section>
+
+	<!-- Five -->
+	@*<section id="five" class="wrapper style2 special fade-up">
+		<div class="container">
+			<header class="major">
+				<h2>Accumsan sed tempus adipiscing blandit</h2>
+				<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
+			</header>
+			<div class="box alt">
+				<div class="row uniform">
+					<section class="4u 6u(medium) 12u$(xsmall)">
+						<span class="icon alt major fa-area-chart"></span>
+						<h3>Ipsum sed commodo</h3>
+						<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+					</section>
+					<section class="4u 6u$(medium) 12u$(xsmall)">
+						<span class="icon alt major fa-comment"></span>
+						<h3>Eleifend lorem ornare</h3>
+						<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+					</section>
+					<section class="4u$ 6u(medium) 12u$(xsmall)">
+						<span class="icon alt major fa-flask"></span>
+						<h3>Cubilia cep lobortis</h3>
+						<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+					</section>
+					<section class="4u 6u$(medium) 12u$(xsmall)">
+						<span class="icon alt major fa-paper-plane"></span>
+						<h3>Non semper interdum</h3>
+						<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+					</section>
+					<section class="4u 6u(medium) 12u$(xsmall)">
+						<span class="icon alt major fa-file"></span>
+						<h3>Odio laoreet accumsan</h3>
+						<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+					</section>
+					<section class="4u$ 6u$(medium) 12u$(xsmall)">
+						<span class="icon alt major fa-lock"></span>
+						<h3>Massa arcu accumsan</h3>
+						<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+					</section>
+				</div>
+			</div>
+			<footer class="major">
+				<ul class="actions">
+					<li><a href="#" class="button">Magna sed feugiat</a></li>
+				</ul>
+			</footer>
+		</div>
+	</section>*@
+
+	<!-- Six -->
+	<section id="five" class="wrapper style3 special fade">
+		<div class="container">
+			<header>
+				<h2>Need some shmoozy graphics for a project?</h2>
+				<p>Feel free to contact me! I'd love to chat!</p>
+			</header>
+			<form method="post" action="#" class="container 50%">
+				<ul class="actions">
+					<li><a href="mailto:bitinat2@isu.edu" class="button">Contact</a></li>
+					<li>email: bitinat2@isu.edu</li>
+				</ul>
+
+				@*<div class="row uniform 50%">
+					<div class="8u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
+					<div class="4u$ 12u$(xsmall)"><input type="submit" value="Get Started" class="fit special" /></div>
+				</div>*@
+			</form>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="icons">
+			<li><a href="https://twitter.com/nathanvollmer" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+			<li><a href="https://www.facebook.com/nathan.vollmer" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+			<li><a href="https://www.linkedin.com/in/nathan-morrical-11105ab5/" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+			<li><a href="https://github.com/nathanvollmer" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+			<li><a href="mailto:bitinat2@isu.edu" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+		</ul>
+	</footer>
+
 </div>

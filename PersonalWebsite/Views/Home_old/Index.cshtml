@@ -1,0 +1,42 @@
+﻿@{
+	ViewBag.Title = "Home Page";
+}
+<script type="text/javascript">
+	module.controller('AppCtrl', function ($scope) {
+		$scope.imagePath = "";
+	});
+</script>
+
+<div ng-cloak id="mainContainer">
+	<div class="box">
+		<div ng-controller="AppCtrl" id="ProfileBanner" class="md-card-image" alt="Washed Out">
+			<div class="centered-text">
+				<strong>HI, I'M NATHAN MORRICAL.</strong>
+			</div>
+			@*<div id="socialMedia">
+				<md-button class="md-fab facebook">one</md-button>
+				<md-button class="md-fab twitter">two</md-button>
+				<md-button class="md-fab github">three</md-button>
+				<md-button class="md-fab linked-in">four</md-button>
+				<md-button class="md-fab email">five</md-button>
+			</div>*@
+
+			<md-toolbar id="navBar" class="md-whiteframe-10dp">
+				<div class="md-toolbar-tools">
+					<h2 class="md-flex">Nathan Morrical</h2>
+				</div>
+			</md-toolbar>
+		</div>
+		
+		@* Render research interests *@
+		@Html.Partial("~/Views/Home/_ResearchInterests.cshtml")
+
+		<div id="whatIDo">
+			<h1>What I Do</h1>
+		</div>
+
+		<div" id="projects">
+			<h1>Projects</h1>
+		</div">
+	</div>
+</div>
